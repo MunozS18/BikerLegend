@@ -1,0 +1,26 @@
+html,
+.body{
+    background-image: url(./Fondos/3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    height: 100vh;
+
+}
+
+.btn-1{
+    background-size: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #6464f8;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;              +
+}

@@ -1,0 +1,183 @@
+html,
+.head {
+   
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+   position: relative;
+   height: 100%;
+   background-image: url(./Fondos/Yamaha\ Logo.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+body{
+    background-color: #000000;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    overflow: hidden;
+}
+.centrado {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lds-hourglass,
+.lds-hourglass:after {
+  box-sizing: border-box;
+}
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #0314b2;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+
+}
+
+.swiper {
+    width: 100%;
+    padding: 150px 0 50px 0;
+} 
+
+.swiper-slide {
+    width: 300px;
+    height: 400px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #0314b2;
+}
+.icons img {
+    width: 120px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.product-txt span {
+    font-size: 25px;
+    color: #0314b2;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.product-txt p {
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+
+.product-img img {
+    width: 150px;
+}
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.button {
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(rgb(214, 202, 254), rgb(3, 33, 204));
+    border: none;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(255, 255, 255);
+    transition-duration: .3s;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: rgb(0, 0, 0);
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(7, 7, 7);
+    padding-bottom: 1px;
+  }
+  

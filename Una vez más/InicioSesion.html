@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="InicioSesion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>BikerLenged</title>
+    <link rel="icon" href="../Imagenes Pincipales/Download BL Logo Letter Initial Logo Designs Template for free.jpeg">
+</head>
+
+<body class="hidden">
+
+    <div class="centrado" id="onload">
+        <div class="lds-hourglass"></div>
+       </div>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2 style="font-family: 'Times New Roman', Times, serif;">Bienvenido a BikerLenged</h2>
+                <p style="font-family: 'Times New Roman', Times, serif;">Si ya tienes una cuenta por favor inicia sesion aqui</p>
+                <button class="sign-up-btn" style="font-family: 'Times New Roman', Times, serif;" >Iniciar Sesion</button>
+            </div>
+        </div>
+        
+        <!--Registrarse-->
+        <form class="formulario">
+            <h2 class="create-account" style="font-family: 'Times New Roman', Times, serif;">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <a href="https://instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179"><i class='bx bxl-instagram'></i></a>
+                    
+                </div>
+                <div class="border-icon">
+                    <a href="https://www.linkedin.com/login/es"> <i class='bx bxl-linkedin' ></i></a>
+                   
+                </div>
+                <div class="border-icon">
+                   <a href="https://es-la.facebook.com/login/device-based/regular/login/"><i class='bx bxl-facebook-circle'></i></a> 
+                   
+                </div>
+            </div>
+            <p class="cuenta-gratis" style="font-family: 'Times New Roman', Times, serif;">Crear una cuenta gratis</p>
+            <input type="text" placeholder="Nombre" id="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Contraseña" id="Email" required>
+            <a href="./RegistroCompletado.html"></a><button type="submit" class="button-1" style="font-family: 'Times New Roman', Times, serif;">Registrarse</button>
+        </form>
+    </div>
+
+    <!--Iniciar sesion-->
+    <div class="container-form sign-in">
+        <form class="formulario">
+            <h2 class="create-account" style="font-family: 'Times New Roman', Times, serif;">Iniciar Sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179"><i class='bx bxl-instagram'></i></a>
+                    
+                </div>
+                <div class="border-icon">
+                    <a href="https://www.linkedin.com/login/es"><i class='bx bxl-linkedin' ></i></a>
+                  
+                </div>
+                <div class="border-icon">
+                    <a href="https://es-la.facebook.com/login/device-based/regular/login/"><i class='bx bxl-facebook-circle'></i></a>
+                
+                </div>
+                
+            </div>
+            <p class="cuenta-gratis" style="font-family: 'Times New Roman', Times, serif;">¿Aun no tienes una cuenta?</p>
+            <input type="email" placeholder="Email" name="" id="email" required>
+            <input type="password" placeholder="Contraseña" name="" id="password" required>
+            <a href="./Principal.html"></a><button type="submit" class="button-1" style="font-family: 'Times New Roman', Times, serif;">Iniciar Sesion</button>
+            
+            
+            
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h2 style="font-family: 'Times New Roman', Times, serif;">Bienvenido de nuevo</h2>
+                <p style="font-family: 'Times New Roman', Times, serif;">Si aun no tienes una cuenta por favor registrese aqui</p>
+     <button class="sign-in-btn" style="font-family: 'Times New Roman', Times, serif;" value="Registrarse" onclick="location.href='RegistroCompletado.html'">Registrarse</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="InicioSesion.js"></script>
+</body>
+
+</html>
+
+
+
+
